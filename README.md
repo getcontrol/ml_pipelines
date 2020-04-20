@@ -48,6 +48,10 @@ $ brew services start zookeeper
 ==> Successfully started `zookeeper` (label: homebrew.mxcl.zookeeper)
 $ brew services start kafka
 ==> Successfully started `kafka` (label: homebrew.mxcl.kafka)
+
+Alternative:
+zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
+kafka-server-start /usr/local/etc/kafka/server.properties
 ```
 
 3. In Terminal#1 run the Predictor (or the Trainer):
